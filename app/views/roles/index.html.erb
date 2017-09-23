@@ -16,7 +16,7 @@
 
       <% @roles.each do |role| %>
       <tr>
-        <td><%= role.movies_id %></td>
+        <td><%= role.movies.title %></td>
         <td><%= role.actors_id %></td>
         <td>
           <a href="/roles/<%= role.id %>" class="btn btn-primary">Show</a>
